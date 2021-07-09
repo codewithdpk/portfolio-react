@@ -1,0 +1,273 @@
+.container-one{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(0deg, #000428 0%, #004E92 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-hey-gradient {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.span-my-name{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 70px;
+   
+}
+
+.container-inner-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two{
+    width: 100%;
+    padding:50px 0;
+    background: #01062B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bottom{
+    width: 100%;
+    padding:50px 0 0 0;
+    background: #01062B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.heading-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-title{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.heading-title-line{
+    width: 50px;
+    height: 3px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.about-me-box-container{
+    width: 80%;
+    margin-top: 40px;
+    padding: 30px;
+    background: rgba(25, 28, 51, 0.76);
+    box-shadow: 2px 2px 50px #000428;
+    border-radius: 20px;
+}
+
+.about-me-span{
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.project-showcase-container{
+    width: 80%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows:200px ;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 25px;
+    row-gap: 60px;
+}
+
+.a-project-container{
+    padding: 20px;
+    background: rgba(25, 28, 51, 0.76);
+    box-shadow: 2px 2px 50px #000428;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+}
+
+.project-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #BFBFBF;
+    height: 100px;
+}
+
+.project-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icon{
+    height: 25px;
+    width: 25px;
+    margin: 5px 10px 5px 5px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.reach-me-container{
+    width: 80%;
+    display: grid;
+    grid-template-rows:auto ;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 45% 45%;
+    column-gap: 25px;
+    row-gap: 60px;
+}
+
+.illustration-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-image{
+    width: 500px;
+    height: 500px;
+}
+
+.email-box-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-text-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.email-sub-heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #BFBFBF;
+    margin-top: 40px;
+}
+
+.email-input-box{
+    background: #191C33;
+    border: 1px solid rgba(191, 198, 252, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 45px;
+    padding: 15px 80px 15px 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    color: rgba(191, 198, 252, 0.76);
+    outline: none;
+}
+
+.email-parent-holder{
+    width: 70%;
+    margin: 15px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.send-button{
+    background: #216EE9;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    position: absolute;
+    outline: none;
+    border: none;
+    right: 4px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.social-accounts-container{
+    width: 80%;
+    display: grid;
+    grid-template-rows:auto ;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+
+.social-account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.normal-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+
+.crafted-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #f3f3f4;
+    margin: 25px 0;
+}
+
+.social-icon{
+    font-size: 20px;
+    color: white;
+}
