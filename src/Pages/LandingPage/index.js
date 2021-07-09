@@ -135,7 +135,7 @@ const LandingPage = () =>{
                     </div>
                     <div className="reach-me-container">
                             <div className="illustration-box">
-                                    <img src ={email_illu} className="illustration-image"/>
+                                    <img src ={email_illu} className="illustration-image" alt={`email-box`}/>
                             </div>
                             <div className="email-box-container">
                                 <span className="email-text-heading">
