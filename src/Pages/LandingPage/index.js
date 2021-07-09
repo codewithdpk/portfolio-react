@@ -110,7 +110,7 @@ const LandingPage = () =>{
                           <div className="social-icons">
                               {project.social.map((icon)=>{
                                   return (
-                                      <a target = "_blank" href={icon.link} className="social-icon">
+                                      <a target = "_blank" rel="noopener noreferrer" href={icon.link} className="social-icon">
                                       <i class={`${icon.icon}`}></i>
                                       </a>
                                   )
@@ -156,7 +156,7 @@ const LandingPage = () =>{
                 <div className="container-bottom" >
                 <div className="social-accounts-container">
 
-                        <a className="social-account" target="_blank" href={socialHref.discord}>
+                        <a className="social-account" target="_blank" rel="noopener noreferrer" href={socialHref.discord}>
                             <span className="social-icon">
                             <i class={`${socialIcons.discord}`}></i>
                             </span>
@@ -164,7 +164,7 @@ const LandingPage = () =>{
                                 {socialRefers.discord}
                             </span>
                             </a>     
-                            <a className="social-account" target = "_blank" href={socialHref.github}>
+                            <a className="social-account" target = "_blank" rel="noopener noreferrer" href={socialHref.github}>
                             <span className="social-icon">
                             <i class={`${socialIcons.github}`}></i>
                             </span>
@@ -173,7 +173,7 @@ const LandingPage = () =>{
                             </span>
                             </a>                   
 
-                           <a className="social-account" target="_blank" href={socialHref.twitter}>
+                           <a className="social-account" target="_blank" rel="noopener noreferrer" href={socialHref.twitter}>
                             <span className="social-icon">
                             <i class={`${socialIcons.twitter}`}></i>
                             </span>
@@ -181,7 +181,7 @@ const LandingPage = () =>{
                                 {socialRefers.twitter}
                             </span>
                             </a>                   
-                            <a className="social-account" target="_blank" href={socialHref.email}>
+                            <a className="social-account" target="_blank" rel="noopener noreferrer" href={socialHref.email}>
                             <span className="social-icon">
                             <i class={`${socialIcons.email}`}></i>
                             </span>
