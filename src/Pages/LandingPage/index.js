@@ -62,6 +62,23 @@ const LandingPage = () => {
         },
       ],
     },
+    {
+      name: "pretty-progress",
+      description:
+        "A pretty and simple progress bar for your React applications. 🚀  \n Pretty Progress is a progress bar UI component for React application to build attractive progress showcase for any kind of actions such profile verification, loading data and more.",
+      social: [
+        {
+          name: "Github",
+          icon: "fab fa-github",
+          link: "https://github.com/codewithdpk/pretty-progress",
+        },
+        {
+          name: "NPM",
+          icon: "fab fa-npm",
+          link: "https://www.npmjs.com/package/pretty-progress",
+        },
+      ],
+    },
   ];
 
   const socialIcons = {
