@@ -65,7 +65,7 @@ const LandingPage = () => {
     {
       name: "pretty-progress",
       description:
-        "A pretty and simple progress bar for your React applications. 🚀  \n Pretty Progress is a progress bar UI component for React application to build attractive progress showcase for any kind of actions such profile verification, loading data and more.",
+        "A pretty and simple progress bar for your React applications. 🚀  \n Pretty Progress is a progress bar for profile verification, loading data and more.",
       social: [
         {
           name: "Github",
@@ -90,16 +90,16 @@ const LandingPage = () => {
 
   const socialRefers = {
     discord: "cwdpk#6814",
-    github: "/codewithdeepak",
+    github: "/codewithdpk",
     email: "codewithdeepak@yahoo.com",
-    twitter: "@RandomDeeps",
+    twitter: "@deepaketh",
   };
 
   const socialHref = {
     discord: "https://discord.com/",
     github: "https://github.com/codewithdpk",
     email: "mailto:codewithdeepak@yahoo.com",
-    twitter: "https://twitter.com/DeepsRandom",
+    twitter: "https://twitter.com/deepaketh",
   };
 
   return (
@@ -140,6 +140,45 @@ const LandingPage = () => {
       <div className="container-two">
         <div className="heading-area">
           <span className="heading-title">My Projects</span>
+          <div className="heading-title-line"></div>
+        </div>
+        <div className="project-showcase-container">
+          {projects.map((project) => {
+            return (
+              <div className="a-project-container">
+                <span className="project-name">{project.name}</span>
+                <span className="project-description">
+                  {project.description}
+                </span>
+                <div className="social-icons">
+                  {project.social.map((icon) => {
+                    return (
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={icon.link}
+                        className="social-icon"
+                      >
+                        <i class={`${icon.icon}`}></i>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="container-two">
+        <div className="heading-area">
+          <a
+            style={{ textDecoration: "none" }}
+            href={"https://medium.com/@codewithdeepak"}
+            className="heading-title"
+          >
+            My Blogs
+          </a>
           <div className="heading-title-line"></div>
         </div>
         <div className="project-showcase-container">
